@@ -59,6 +59,10 @@ p{
   margin-bottom:30px;
 }
 
+.hero-image:hover {
+filter: grayscale(1);
+}
+
 .garden-name {
   font-style: italic;
 }
