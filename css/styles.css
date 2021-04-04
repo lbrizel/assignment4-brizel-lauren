@@ -24,6 +24,15 @@ body {
   background-size: cover;
 }
 
+p {
+  clear: both;
+}
+
+.floatleft {
+  float:left;
+  margin-right: 20px;
+}
+
 
 /*=========================
 
@@ -42,6 +51,9 @@ h4 {
 h1{
   text-transform: uppercase;
   text-decoration: underline;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 p{
@@ -55,12 +67,13 @@ p{
 }
 
 .hero-image {
-  text-align: center;
-  margin-bottom:30px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
 }
 
 .hero-image:hover {
-filter: grayscale(1);
+filter: grayscale(.3);
 }
 
 .garden-name {
