@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "song";
+  src: url("../fonts/song.ttf") format("truetype");
+}
+
+/*========================
+
+Universal Styling
+
+*=========================*/
+
+
+*{
+  margin:0;
+  padding: 0;
+  border: 0;
+  border-style:solid;
+  border-radius: 20;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*=========================
+
+fonts
+
+*=========================*/
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Handlee', cursive;
+  color: white;
+  text-align:center;
+}
+
+h1{
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+p{
+  font-family: song,serif;
+  font-size: 20px;
+  color: white;
+}
+
+.body-text {
+  height:auto;
+}
+
+.hero-image {
+  text-align: center;
+  margin-bottom:30px;
+}
