@@ -24,14 +24,24 @@ body {
   background-size: cover;
 }
 
+header {
+    margin: 20px;
+    text-align: center;
+}
+
 p {
   clear: both;
   margin: 20px;
 }
 
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
 .floatleft {
   float:left;
-  margin: 30px;
+  margin: 20px;
 }
 
 .hero-image {
@@ -54,7 +64,8 @@ fonts
 h1,
 h2,
 h3,
-h4 {
+h4
+{
   font-family: 'Handlee', cursive;
   color: white;
   text-align:center;
@@ -73,6 +84,13 @@ p{
   font-size: 20px;
   color: white;
 }
+
+nav ul li a{
+  font-size: 25px;
+  font-weight: bold;
+  color:gray;
+}
+
 
 .body-text {
   height:auto;
