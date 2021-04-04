@@ -46,15 +46,27 @@ nav li{
 
 .hero-image {
     text-align: center;
-    margin-bottom: 30px;
+    margin-top:200px;
     position: relative;
+    z-index: 10;
 }
 
 .hero-image:hover {
 filter: grayscale(.3);
 }
 
-
+.small-rose {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    opacity: 40%;
+    margin: 20px;
+    margin-bottom: 95px;
+    animation-name: move;
+    animation-duration: 25s;
+    amimation-iteration-count:infinite;
+    z-index: 100;
+}
 
 /*=========================
 
@@ -75,7 +87,7 @@ h1{
   text-transform: uppercase;
   text-decoration: underline;
   position: absolute;
-  bottom: 0;
+  bottom: 650px;
   width: 100%;
 }
 
@@ -98,4 +110,24 @@ nav ul li a{
 
 .garden-name {
   font-style: italic;
+}
+
+
+/*========================
+
+Animation Styling
+
+*=========================*/
+
+
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(2000px);
+  }
+
 }
